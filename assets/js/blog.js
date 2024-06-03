@@ -15,14 +15,14 @@ document.addEventListener(('DOMContentLoaded'), ()=>{
 
     const handleArticles = ()=>{
    
-    articles.map((article)=>{
+    articles.sort((a,b)=> b.id - a.id).map((article)=>{
         const sectionElement = document.querySelector('.tiles')
         sectionElement.classList.add(article.containerclass)
     
           // Check if the container exists
           if (!sectionElement) {
             console.error("Container element with class 'tiles' not found.");
-            return; // Exit the function if container is not found
+            return;
         }
     
   

@@ -1,5 +1,6 @@
 //  Dummy Articles
 export const articles = [
+   
     {
         id: 2,
         src: 'images/pic02.jpg',
@@ -55,6 +56,40 @@ export const articles = [
         divclass: 'content',
         href: 'pages/articlepage.html'
     },
+    {
+        id: 7,
+        src: 'images/pic07.jpg',
+        alt: '',
+        h2: 'Santander involved in data breach, 0ver 20million customer data stolen',
+        sectionclass: 'tiles',
+        articleclass: 'style7',
+        spanclass: 'image',
+        divclass: 'content',
+        href: 'pages/articlepage.html'
+    },
+    {
+        id: 8,
+        src: 'images/pic08.jpg',
+        alt: '',
+        h2: 'Scale AI raises $1bn in funding',
+        sectionclass: 'tiles',
+        articleclass: 'style8',
+        spanclass: 'image',
+        divclass: 'content',
+        href: 'pages/articlepage.html'
+    },
+    {
+        id: 9,
+        src: 'images/pic09.jpg',
+        alt: '',
+        h2: 'OpenAI removes bad actors manipulating its LLM',
+        sectionclass: 'tiles',
+        articleclass: 'style9',
+        spanclass: 'image',
+        divclass: 'content',
+        href: 'pages/articlepage.html'
+    },
+   
    
 ]
 
