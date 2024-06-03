@@ -44,13 +44,11 @@ document.addEventListener(('DOMContentLoaded'), ()=>{
      aElement.appendChild(h2Element)
     // Div Element
     const divElement = document.createElement('div')
-    divElement.classList.add(article.divclass)
-    const pElement = document.createElement('p')
-    pElement.innerText = article.title
-    divElement.appendChild(pElement)
+
+    
    
     aElement.href = article.href
-    aElement.append(divElement)
+    
 
     articleElement.appendChild(spanElement)
     articleElement.appendChild(aElement)
